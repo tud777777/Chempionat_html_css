@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
@@ -12,122 +12,123 @@
     <title>Document</title>
 </head>
 <body>
-    <header class="container">
-        <div class="wrapper">
-            <div class="inline">
-                <img src="./img/logo_black.svg" alt="">
-                <div class="header_nav_menu">
-                    <a class="btn" href="">О нас</a>
-                    <a class="btn" href="">Конкурсы</a>
-                    <a class="btn" href="">Поиск</a>
-                    <a class="btn" href="">Контакты</a>
-                    <a class="btn" href="">Регистрация</a>
-                    <a class="btn" href="">Авторизация</a>
-                    <a class="btn" href="">Личный кабинет</a>
-                    <img src="./img/moon.svg" alt="">
-                </div>
-            </div>
-        </div>
-    </header>
-    <main class="container">
-        <div class="wrapper">
-            <div class="slider">
-                <div class="slider_slides">
-                    <button class="slider_arrow_l"></button>
-                    <button class="slider_arrow_r"></button>
-                </div>
-                <div class="slider_menu">
-                    <div class="slider_menu_text">
-                        <h1 class="title">Конкурс "123"</h1>
-                        <p class="text">Краткое описание Краткое описание раткое описание Краткое описание Краткое описание</p>
+<!--    <header class="container">-->
+<!--        <div class="wrapper">-->
+<!--            <div class="inline">-->
+<!--                <img src="./assets/images/logo_black.svg" alt="">-->
+<!--                <div class="header_nav_menu">-->
+<!--                    <a class="btn" href="">О нас</a>-->
+<!--                    <a class="btn" href="">Конкурсы</a>-->
+<!--                    <a class="btn" href="">Поиск</a>-->
+<!--                    <a class="btn" href="">Контакты</a>-->
+<!--                    <a class="btn" href="">Регистрация</a>-->
+<!--                    <a class="btn" href="">Авторизация</a>-->
+<!--                    <a class="btn" href="">Личный кабинет</a>-->
+<!--                    <img src="./assets/images/moon.svg" alt="">-->
+<!--                </div>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--    </header>-->
+    <main class="wrapper">
+            <div class="block">
+                <div class="block_for_elems_column">
+                    <div>
+                        <img src="./assets/images/arrow_l.png" class="arrow" alt="">
+                        <img src="./assets/images/arrow_r.png" class="arrow" alt="">
+                        <img src="./assets/images/slide.png" class="vid_img" alt="">
                     </div>
-                    <div class="slider_menu_other">
-                        <img src="./img/stars.png" alt="" width="140px" height="20">
-                        <a class="slider_btn" href="">Подробнее</a>
+                    <div class="block_for_elems_column slider_text">
+                        <h2>Конкурс "123"</h2>
+                        <p>Краткое описание Краткое описание раткое описание Краткое описание Краткое описание</p>
+                        <img src="./assets/images/stars.png" alt="" width="120px">
+                        <a class="btn" href="">Подробнее</a>
                     </div>
                 </div>
+
             </div>
-            <div class="hello">
-                <h1 class="hello_title">Приветствие от организаторов</h1>
-                <video controls>
-                    <source src="./img/video.mp4" type="video/mp4">
+            <div class="block">
+                <h2>Приветствие от организаторов</h2>
+                <video controls class="vid_img">
+                    <source src="./assets/images/video.mp4" type="video/mp4" >
                 </video>
             </div>
-            <div class="contests">
-                <h1 class="contests_title">Конкурсы</h1>
-                <div class="contests_grid">
-                    <div class="contest">
-                        <img src="./img/slide.png" width="100%" style="border-radius: 10px 10px 0 0" alt="">
-                        <div class="contest_texts">
-                            <h1 class="contest_title">123</h1>
-                            <p class="contest_text">Краткое описание Краткое описание раткое описание Краткое описание Краткое описание</p>
-                            <img src="./img/stars.png" alt="" width="120px">
-                            <a href="" class="contest_btn">Записаться</a>
-                            <p class="contest_books">Всего записалось: 100</p>
+            <div class="block">
+                <h2>Конкурсы</h2>
+                <div class="grid">
+                    <div class="grid_elem">
+                        <img src="./assets/images/slide.png" class="rows_elem_img" alt="">
+                        <div class="block_for_elems_column">
+                            <h3>123</h3>
+                            <p>Краткое описание Краткое описание раткое описание Краткое описание Краткое описание</p>
+                            <img src="./assets/images/stars.png" alt="" width="120px">
+                            <a href="" class="btn">Записаться</a>
+                            <p>Всего записалось: 100</p>
                         </div>
                     </div>
-                    <div class="contest">
-                        <img src="./img/slide.png" width="100%" style="border-radius: 10px 10px 0 0" alt="">
-                        <div class="contest_texts">
-                            <h1 class="contest_title">123</h1>
-                            <p class="contest_text">Краткое описание Краткое описание раткое описание Краткое описание Краткое описание</p>
-                            <img src="./img/stars.png" alt="" width="120px">
-                            <a href="" class="contest_btn">Записаться</a>
-                            <p class="contest_books">Всего записалось: 100</p>
+                    <div class="grid_elem">
+                        <img src="./assets/images/slide.png" class="rows_elem_img" alt="">
+                        <div class="block_for_elems_column">
+                            <h3>123</h3>
+                            <p>Краткое описание Краткое описание раткое описание Краткое описание Краткое описание</p>
+                            <img src="./assets/images/stars.png" alt="" width="120px">
+                            <a href="" class="btn">Записаться</a>
+                            <p>Всего записалось: 100</p>
                         </div>
                     </div>
-                    <div class="contest">
-                        <img src="./img/slide.png" width="100%" style="border-radius: 10px 10px 0 0" alt="">
-                        <div class="contest_texts">
-                            <h1 class="contest_title">123</h1>
-                            <p class="contest_text">Краткое описание Краткое описание раткое описание Краткое описание Краткое описание</p>
-                            <img src="./img/stars.png" alt="" width="120px">
-                            <a href="" class="contest_btn">Записаться</a>
-                            <p class="contest_books">Всего записалось: 100</p>
+                    <div class="grid_elem">
+                        <img src="./assets/images/slide.png" class="rows_elem_img" alt="">
+                        <div class="block_for_elems_column">
+                            <h3>123</h3>
+                            <p>Краткое описание Краткое описание раткое описание Краткое описание Краткое описание</p>
+                            <img src="./assets/images/stars.png" alt="" width="120px">
+                            <a href="" class="btn">Записаться</a>
+                            <p>Всего записалось: 100</p>
                         </div>
                     </div>
-                    <div class="contest">
-                        <img src="./img/slide.png" width="100%" style="border-radius: 10px 10px 0 0" alt="">
-                        <div class="contest_texts">
-                            <h1 class="contest_title">123</h1>
-                            <p class="contest_text">Краткое описание Краткое описание раткое описание Краткое описание Краткое описание</p>
-                            <img src="./img/stars.png" alt="" width="120px">
-                            <a href="" class="contest_btn">Записаться</a>
-                            <p class="contest_books">Всего записалось: 100</p>
+                    <div class="grid_elem">
+                        <img src="./assets/images/slide.png" class="rows_elem_img" alt="">
+                        <div class="block_for_elems_column">
+                            <h3>123</h3>
+                            <p>Краткое описание Краткое описание раткое описание Краткое описание Краткое описание</p>
+                            <img src="./assets/images/stars.png" alt="" width="120px">
+                            <a href="" class="btn">Записаться</a>
+                            <p>Всего записалось: 100</p>
                         </div>
                     </div>
-                    <div class="contest">
-                        <img src="./img/slide.png" width="100%" style="border-radius: 10px 10px 0 0" alt="">
-                        <div class="contest_texts">
-                            <h1 class="contest_title">123</h1>
-                            <p class="contest_text">Краткое описание Краткое описание раткое описание Краткое описание Краткое описание</p>
-                            <img src="./img/stars.png" alt="" width="120px">
-                            <a href="" class="contest_btn">Записаться</a>
-                            <p class="contest_books">Всего записалось: 100</p>
+                    <div class="grid_elem">
+                        <img src="./assets/images/slide.png" class="rows_elem_img" alt="">
+                        <div class="block_for_elems_column">
+                            <h3>123</h3>
+                            <p>Краткое описание Краткое описание раткое описание Краткое описание Краткое описание</p>
+                            <img src="./assets/images/stars.png" alt="" width="120px">
+                            <a href="" class="btn">Записаться</a>
+                            <p>Всего записалось: 100</p>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="auth">
-                <h1 class="auth_title">Авторизация</h1>
-                <form class="auth_form">
+    </main>
+            <form>
+                <h2>Авторизация</h2>
+                <div class="form_block">
                     <input type="text">
                     <input type="text">
-                    <input class="auth_btn" type="submit" value="Авторизоваться">
-                </form>
-            </div>
+                    <input class="btn" type="submit" value="Авторизоваться">
+                </div>
+            </form>
+    <main class="wrapper">
             <div class="review">
 
             </div>
-            <div class="about_us">
-                <h1 class="about_us_title">О нас</h1>
-                <div class="about_us_div">
-                    <img src="./img/company.png" alt="" width="300" style="float: left; margin-right: 10px;">
-                    <p class="about_us_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <div class="block">
+                <h2>О нас</h2>
+                <div class="block_for_elems_column">
+                    <img src="./assets/images/company.png" alt="" class="vid_img">
+                    <p class="p_black">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
                 </div>
             </div>
         </div>
-    </main>'
+    </main>
     <footer>
         
     </footer>
